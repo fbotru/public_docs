@@ -31,13 +31,27 @@ extra_css:
 nav:
   - Добро пожаловать: index.md
 
-  - Пользователю (Мини):
-      - Пользователю (Мини): docs/1_users_mini.md
+  - Начало работы:
+      - Основные функции: docs/1_users_mini.md
       - Регистрация: docs/users_mini/1_registration.md
       - Главное меню: docs/users_mini/2_main_menu.md
-      - Профиль пользователя: docs/users_mini/3_user_profile.md
-      - Оценить судью: docs/users_mini/4_rate_referee.md
+      - Профиль: docs/users_mini/3_user_profile.md
+      - Оценка судей: docs/users_mini/4_rate_referee.md
 
-  - Администратору клуба:
-      - Администратору клуба: docs/2_club_admins.md
-      - Быстрый старт: docs/club_admins/1_start.md
+  - Игроку клуба:
+      - Обзор возможностей: docs/club_player/index.md
+      - Тренировки: docs/club_player/trainings.md
+      - Абонементы: docs/club_player/subscriptions.md
+      - Оплата картой: docs/club_player/card_payment.md
+      - Наличные и задолженности: docs/club_player/cash_and_debts.md
+      - Статистика и рейтинги: docs/club_player/statistics.md
+
+  - Капитану клуба:
+      - Обзор возможностей: docs/club_captain/index.md
+      - Подготовка командного чата: docs/club_captain/team_chat.md
+      - Расписание и тренировки: docs/club_captain/trainings.md
+      - Игроки и абонементы: docs/club_captain/players.md
+      - Настройка оплат: docs/club_captain/payments.md
+      - Долги и финансовый отчёт: docs/club_captain/finance.md
+      - Уведомления: docs/club_captain/notifications.md
+      - Команды, рейтинг и SMM: docs/club_captain/club_tools.md
