@@ -1,0 +1,42 @@
+site_name: Документация к боту AFL-Ассистент
+theme:
+  name: material
+  font: false
+  language: ru
+  palette:
+    - scheme: default
+      primary: indigo        # основной цвет
+      accent: deep purple    # цвет акцентов
+      toggle:
+        icon: material/weather-night
+        name: Тёмная тема
+    - scheme: slate
+      primary: indigo
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Светлая тема
+
+  features:
+    - header.autohide
+    - navigation.tabs       # верхние вкладки
+    - navigation.sections   # боковое меню для выбранной вкладки
+    - navigation.top        # "вверх" в шапке
+    - navigation.footer     # кнопки "предыдущая/следующая" внизу страниц
+
+extra_css:
+  - css/fonts.css
+
+nav:
+  - Добро пожаловать: index.md
+
+  - Пользователю (Мини):
+      - Пользователю (Мини): docs/1_users_mini.md
+      - Регистрация: docs/users_mini/1_registration.md
+      - Главное меню: docs/users_mini/2_main_menu.md
+      - Профиль пользователя: docs/users_mini/3_user_profile.md
+      - Оценить судью: docs/users_mini/4_rate_referee.md
+
+  - Администратору клуба:
+      - Администратору клуба: docs/2_club_admins.md
+      - Быстрый старт: docs/club_admins/1_start.md

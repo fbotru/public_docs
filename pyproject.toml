@@ -1,0 +1,17 @@
+[project]
+name = "football-bot-docs"
+version = "0.1.0"
+description = "Документация по использованию бота AFL-Ассистент"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "mkdocs>=1.6.1",
+    "mkdocs-material>=9.7.0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["fb_bot_docs"]
