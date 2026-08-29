@@ -1,4 +1,5 @@
 site_name: Документация к боту AFL-Ассистент
+site_url: https://fbotru.github.io/public_docs/
 theme:
   name: material
   font: false
